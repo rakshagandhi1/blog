@@ -1,0 +1,68 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #353535;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.sm {
+  color: blue;
+  position: absolute;
+  right : 0px;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.title{
+
+}
+
+.subtitle {
+  font-family: Blackletter;
+ }
+
+ .ask {
+  font-family: Perpetua;
+ }
+
+ .topic {
+  font-family:Perpetua;
+  color: blue;
+  font-size: 80px;
+ }
+
+ .content {
+  font-family: cursive;
+  font-size: 25px;
+  color: white;
+ }
+
+ .highlight {
+  color: red;
+ }
+
+.social {
+  padding: 15px;
+  color: black;
+}
+ .img {
+  background-image: url(../assets/images/bg1.jpg);
+  background-repeat: no-repeat;
+ }
